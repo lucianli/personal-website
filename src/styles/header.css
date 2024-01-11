@@ -1,0 +1,14 @@
+.title {
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 48px;
+    text-align: left;
+    margin: 0;
+}
+
+.headline {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
