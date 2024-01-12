@@ -1,0 +1,15 @@
+.about__title {
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 32px;
+    text-align: right;
+    margin: 0;
+}
+
+.about__content {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    width: 50vw;
+}

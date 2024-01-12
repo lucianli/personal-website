@@ -17,15 +17,20 @@
 }
 
 .header {
-  width: 25vw;
+  width: 20vw;
   margin-left: 40px;
   margin-top: 40px;
+  text-align: left;
 }
 
 .content {
-  width: 75vw;
-  margin-left: 40px;
-  margin-top: 40px;
+  width: 80vw;
+  margin: 20px;
+  padding: 25px;
+  border: 1px solid #aaaaaa;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .menuLink {
@@ -33,5 +38,9 @@
   font-weight: 500;
   font-size: 14px;
   cursor: pointer;
-  text-align: left;
+  transition: all 0.1s linear;
+}
+
+.menuLink:hover {
+  color: #cccccc
 }

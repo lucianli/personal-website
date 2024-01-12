@@ -1,14 +1,19 @@
-.title {
+.header__container {
+    margin-bottom: 80px;
+}
+
+.header__title {
     font-family: 'Merriweather';
     font-weight: 300;
-    font-size: 48px;
+    font-size: 42px;
     text-align: left;
     margin: 0;
 }
 
-.headline {
+.header__headline {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 14px;
     text-align: left;
+    margin-bottom: 50px;
 }
