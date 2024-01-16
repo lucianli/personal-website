@@ -1,0 +1,12 @@
+.contact__link {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    text-align: right;
+}
+
+.contact__linktext {
+    margin-bottom: 30px;
+}

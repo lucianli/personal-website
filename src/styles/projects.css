@@ -1,0 +1,29 @@
+.projects__linktext {
+    text-decoration: none;
+    color: black;
+}
+
+.projects__title {
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 24px;
+    text-align: right;
+    margin: 0px;
+}
+
+.projects__techstack {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    text-align: right;
+    margin: 0px;
+}
+
+.projects__description {
+    margin: 10px 0px 30px 0px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    width: 45vw;
+}

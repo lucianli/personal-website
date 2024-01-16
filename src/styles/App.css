@@ -21,6 +21,7 @@
   margin-left: 40px;
   margin-top: 40px;
   text-align: left;
+  cursor: default;
 }
 
 .content {
@@ -31,16 +32,36 @@
   border-radius: 10px;
   display: flex;
   justify-content: flex-end;
+  cursor: default;
 }
 
-.menuLink {
+.menuLinkText {
   font-family: 'Inter';
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
-  cursor: pointer;
-  transition: all 0.1s linear;
+  text-decoration: none;
+  color: black;
 }
 
-.menuLink:hover {
-  color: #cccccc
+.link {
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.1, 0.4, 0.2, 1);
 }
+
+.link:hover {
+  color: #cccccc;
+  fill: #cccccc;
+}
+
+.title {
+  font-family: 'Merriweather';
+  font-weight: 300;
+  font-size: 32px;
+  text-align: right;
+  margin: 0px 0px 30px 0px;
+}
+
+.newtabicon {
+  margin: 0px 0px 0px 3px;
+}
+

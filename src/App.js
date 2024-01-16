@@ -6,6 +6,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import noiseSvg from './assets/noisefilter.svg';
+import { ReactComponent as NewTabIcon } from './assets/newtab-icon.svg';
 
 const App = () => {
   const [mousePos, setMousePos] = useState({x: 0, y: 0});
@@ -22,7 +23,7 @@ const App = () => {
     const gradientX = (mousePos.x / window.innerWidth) * 100;
     const gradientY = (mousePos.y / window.innerHeight) * 100;
 
-    return `radial-gradient(circle at ${gradientX}% ${gradientY}%, rgba(0, 0, 0, 0.3), transparent 50%), url(${noiseSvg})`;
+    return `radial-gradient(circle at ${gradientX}% ${gradientY}%, rgba(0, 0, 0, 0.4), transparent 70%), url(${noiseSvg})`;
   };
 
   const [curPage, setCurPage] = useState('about');
@@ -54,9 +55,20 @@ const App = () => {
 
       <div className="header">
         <Header/>
-        <p className="menuLink" onClick={() => handlePageChange("about")}>{curPage === "about" ? "»" : "About"}</p>
-        <p className="menuLink" onClick={() => handlePageChange("projects")}>{curPage === "projects" ? "»" : "Projects"}</p>
-        <p className="menuLink" onClick={() => handlePageChange("contact")}>{curPage === "contact" ? "»" : "Contact"}</p>
+        <p className="link menuLinkText" onClick={() => handlePageChange("about")}>{curPage === "about" ? "»" : "About Me"}</p>
+        <p className="link menuLinkText" onClick={() => handlePageChange("projects")}>{curPage === "projects" ? "»" : "Projects"}</p>
+        <p className="link menuLinkText" onClick={() => handlePageChange("contact")}>{curPage === "contact" ? "»" : "Contact"}</p>
+        <a 
+          className="link menuLinkText"
+          href="https://docs.google.com/document/d/1PDkhg_ukrelUg5-6ZwNTxhVtuIKgMpsatWCQlYxwGK4/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p>
+            Resume
+            <NewTabIcon className="newtabicon" height={12} width={12}/>
+          </p>
+        </a>
       </div>
       <div className="content">
         {displayCurPage()}

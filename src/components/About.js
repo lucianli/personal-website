@@ -1,10 +1,11 @@
 import React from 'react';
-import '../styles/about.css'
+import '../styles/about.css';
+import '../styles/App.css';
 
 const About = () => {
     return (
         <div>
-            <p className="about__title">About Me</p>
+            <p className="title">About Me</p>
             <p className="about__content">
                 Hi, I'm Lucian. I'm currently studying Computer Science at UCLA, and 
                 am looking for opportunities in Software Development with interest and experience 
