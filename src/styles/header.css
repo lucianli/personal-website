@@ -10,10 +10,19 @@
     margin: 0;
 }
 
+.header__mobileTitle {
+    font-size: 32px;
+}
+
 .header__headline {
     font-family: 'Inter';
     font-weight: 400;
     font-size: 14px;
     text-align: left;
     margin-bottom: 50px;
+}
+
+.header__mobileHeadline {
+    font-size: 13px;
+    margin-bottom: 0;
 }

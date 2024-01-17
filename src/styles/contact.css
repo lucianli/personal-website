@@ -1,3 +1,7 @@
+.contact__linkcontainer {
+    margin-top: 50px;
+}
+
 .contact__link {
     font-family: 'Inter';
     font-weight: 500;
@@ -9,4 +13,8 @@
 
 .contact__linktext {
     margin-bottom: 30px;
+}
+
+.contact__mobileLinktext {
+    margin-bottom: 10px;
 }

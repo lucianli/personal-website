@@ -1,10 +1,15 @@
 .App {
   text-align: center;
-  height: 100vh;
-  width: 100vw;
   font-family: 'Inter';
   display: flex;
   flex-direction: row;
+  height: 100vh;
+}
+
+.mobileApp {
+  display: flex;
+  flex-direction: column;
+  height: 86vh;
 }
 
 .background {
@@ -16,6 +21,10 @@
   z-index: -1;
 }
 
+.mobileBackground {
+  height: 86vh;
+}
+
 .header {
   width: 20vw;
   margin-left: 40px;
@@ -24,15 +33,18 @@
   cursor: default;
 }
 
-.content {
+.mobileHeader {
   width: 80vw;
-  margin: 20px;
-  padding: 25px;
-  border: 1px solid #aaaaaa;
-  border-radius: 10px;
+  margin-left: 20px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.mobileMenu {
   display: flex;
-  justify-content: flex-end;
-  cursor: default;
+  flex-direction: row;
+  width: 100vw;
 }
 
 .menuLinkText {
@@ -43,9 +55,30 @@
   color: black;
 }
 
+.mobileMenuLinkText {
+  font-size: 13px;
+  margin-right: 35px;
+}
+
+.content {
+  flex: 1;
+  margin: 25px;
+  padding: 25px;
+  border: 1px solid #aaaaaa;
+  border-radius: 10px;
+  cursor: default;
+  overflow-y: scroll;
+}
+
+.mobileContent {
+  margin: 15px;
+  padding: 15px;
+}
+
 .link {
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.1, 0.4, 0.2, 1);
+  text-decoration: none;
 }
 
 .link:hover {
@@ -61,7 +94,11 @@
   margin: 0px 0px 30px 0px;
 }
 
+.mobileTitle {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
 .newtabicon {
   margin: 0px 0px 0px 3px;
 }
-

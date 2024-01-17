@@ -1,6 +1,10 @@
 .projects__linktext {
     text-decoration: none;
     color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 10vw;
 }
 
 .projects__title {
@@ -11,6 +15,10 @@
     margin: 0px;
 }
 
+.projects__mobileTitle {
+    font-size: 18px;
+}
+
 .projects__techstack {
     font-family: 'Inter';
     font-weight: 400;
@@ -19,11 +27,18 @@
     margin: 0px;
 }
 
+.projects__mobileTechstack {
+    font-size: 12px;
+}
+
 .projects__description {
     margin: 10px 0px 30px 0px;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 14px;
     text-align: right;
-    width: 45vw;
+}
+
+.projects__mobileDescription {
+    font-size: 13px;
 }
