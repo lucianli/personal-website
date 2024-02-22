@@ -5,7 +5,7 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
-import noiseSvg from './assets/noisefilter.svg';
+// import noiseSvg from './assets/noisefilter.svg';
 import { ReactComponent as NewTabIcon } from './assets/newtab-icon.svg';
 import { checkIfMobile } from './utility/screensize';
 
