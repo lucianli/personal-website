@@ -26,7 +26,7 @@ const App = () => {
     const gradientX = (mousePos.x / window.innerWidth) * 100;
     const gradientY = (mousePos.y / window.innerHeight) * 100;
 
-    return `radial-gradient(circle at ${gradientX}% ${gradientY}%, rgba(0, 0, 0, 0.4), transparent 70%), url(${noiseSvg})`;
+    return `radial-gradient(circle at ${gradientX}% ${gradientY}%, rgba(255, 68, 0, 0.6), transparent 70%)`;
   };
 
   const [curPage, setCurPage] = useState('about');
