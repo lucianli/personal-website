@@ -6,7 +6,7 @@ import { PageContext } from '../utils/pageContext';
 import { Link } from 'react-router-dom';
 
 const About = () => {
-    const { page, setPage } = useContext(PageContext);
+    const { setPage } = useContext(PageContext);
     const isMobile = checkIfMobile();
 
     return (
