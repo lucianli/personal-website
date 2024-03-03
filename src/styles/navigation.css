@@ -1,0 +1,20 @@
+.navigation__mobileMenu {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.navigation__menuLinkText {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.navigation__mobileMenuLinkText {
+    font-size: 13px;
+    margin-right: 20px;
+    margin-top: 15px;
+}

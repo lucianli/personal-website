@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/contact.css';
 import '../styles/App.css';
 import { ReactComponent as NewTabIcon } from '../assets/newtab-icon.svg';
-import { checkIfMobile } from '../utility/screensize';
+import { checkIfMobile } from '../utils/screensize';
 
 const Contact = () => {
     const isMobile = checkIfMobile();

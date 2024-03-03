@@ -1,0 +1,15 @@
+.leftview__container {
+    width: 20vw;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: left;
+    cursor: default;
+}
+  
+.leftview__mobileContainer {
+    width: 80vw;
+    margin-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    text-align: left;
+}

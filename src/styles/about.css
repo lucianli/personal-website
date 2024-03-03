@@ -3,10 +3,25 @@
     font-weight: 400;
     font-size: 14px;
     text-align: right;
-    margin-left: 20vw;
+    margin-left: 25vw;
 }
 
 .about__mobileContent {
     font-size: 13px;
-    margin-left: 15vw;
+    margin-left: 12vw;
+}
+
+.about__bold {
+    font-weight: 600;
+    display: inline;
+}
+
+.about__link {
+    text-decoration: none;
+    color: red;
+    transition: all 0.4s cubic-bezier(0.1, 0.4, 0.2, 1);
+}
+
+.about__link:hover {
+    color: rgb(255, 90, 20);
 }

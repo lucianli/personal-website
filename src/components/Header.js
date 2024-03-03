@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/header.css';
-import {checkIfMobile} from '../utility/screensize';
+import { checkIfMobile } from '../utils/screensize';
 
 const Header = () => {
     const isMobile = checkIfMobile();

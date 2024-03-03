@@ -1,0 +1,33 @@
+.blog__content {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    margin-left: 15vw;
+}
+
+.blog__mobileContent {
+    font-size: 13px;
+    margin-left: 0vw;
+}
+
+.blog__bold {
+    font-weight: 600;
+    display: inline;
+}
+
+.blog__heading {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 5vh;
+}
+
+.blog__mobileHeading {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 3vh;
+}

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/projects.css';
 import '../styles/App.css';
 import { ReactComponent as NewTabIcon } from '../assets/newtab-icon.svg';
-import { checkIfMobile } from '../utility/screensize';
+import { checkIfMobile } from '../utils/screensize';
 
 const Projects = () => {
     const isMobile = checkIfMobile();
