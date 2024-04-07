@@ -31,3 +31,44 @@
     text-align: right;
     margin-top: 3vh;
 }
+
+.blog__linktext {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 10vw;
+}
+
+.blog__title {
+    font-family: 'Merriweather';
+    font-weight: 300;
+    font-size: 24px;
+    text-align: right;
+    margin: 0px;
+}
+
+.blog__mobileTitle {
+    font-size: 18px;
+}
+
+.blog__techstack {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 13px;
+    text-align: right;
+    margin: 0px;
+}
+
+.blog__mobileTechstack {
+    font-size: 12px;
+}
+
+.blog__section {
+    margin-top: 5vh;
+}
+
+.blog__mobileSection {
+    margin-top: 2vh;
+}
