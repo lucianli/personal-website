@@ -42,12 +42,12 @@ const Blog = () => {
                 </p>
             </div>
             <div className={isMobile ? "blog__mobileSection" : "blog__section"}>
-                <a 
+                {/* <a 
                     href="" 
                     className="link blog__linktext"
                     target="_blank"
                     rel="noopener noreferrer"
-                >
+                > */}
                     <p className={isMobile ? "blog__title blog__mobileTitle" : "blog__title"}>
                         March 2024: Chess AI
                         {/* <NewTabIcon className="newtabicon" height={isMobile ? 14 : 18} width={isMobile ? 14 : 18}/> */}
@@ -55,7 +55,7 @@ const Blog = () => {
                     <p className={isMobile ? "blog__techstack blog__mobileTechstack" : "blog__techstack"}>
                         
                     </p>
-                </a>
+                {/* </a> */}
                 <p className={isMobile ? "blog__content blog__mobileContent" : "blog__content"}>
                     Work in progress...
                 </p>
