@@ -22,7 +22,7 @@ const About = () => {
             <p className={isMobile ? "about__content about__mobileContent" : "about__content"}>
                 As I get closer to graduating and finishing my education, one of my top priorities is to foster
                 a <p className={"about__bold"}>habit of continuous learning outside the classroom</p>. In an effort 
-                to achieve this, and stay up-to-date on new technologies, every month I will be teaching myself 
+                to achieve this and stay up-to-date on new technologies, every month I will be teaching myself 
                 a new programming language/tech stack through the creation of a project, and documenting my journey
                 <Link to="/blog" onClick={() => setPage("blog")} className={"about__bold about__link"}> here</Link>. 
             </p>
