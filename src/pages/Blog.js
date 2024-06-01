@@ -52,22 +52,30 @@ const Blog = () => {
                 </p>
             </div>
             <div className={isMobile ? "blog__mobileSection" : "blog__section"}>
-                {/* <a 
-                    href="" 
+                <a 
+                    href="https://github.com/lucianli/chessAI" 
                     className="link blog__linktext"
                     target="_blank"
                     rel="noopener noreferrer"
-                > */}
+                >
                     <p className={isMobile ? "blog__title blog__mobileTitle" : "blog__title"}>
-                        April 2024: Chess AI
-                        {/* <NewTabIcon className="newtabicon" height={isMobile ? 14 : 18} width={isMobile ? 14 : 18}/> */}
+                        April/May 2024: Chess AI
+                        <NewTabIcon className="newtabicon" height={isMobile ? 14 : 18} width={isMobile ? 14 : 18}/>
                     </p>
                     <p className={isMobile ? "blog__techstack blog__mobileTechstack" : "blog__techstack"}>
-                        
+                        Python ∙ python-chess ∙ pygame
                     </p>
-                {/* </a> */}
+                </a>
                 <p className={isMobile ? "blog__content blog__mobileContent" : "blog__content"}>
-                    Work in progress...
+                    For April and May, I created ChessAI, an interactive chess GUI implemented with Python and 
+                    libraries like python-chess and pygame. The game contains three difficulty modes for the user 
+                    to choose from, and contains features like valid move highlighting and last-move tracing.
+                </p>
+                <p className={isMobile ? "blog__content blog__mobileContent" : "blog__content"}>
+                    The game's three difficulty modes are implemented using the minimax decision function, with a 
+                    different maximum depth based on the selected mode. The "hard" mode also incorporates a book of
+                    common openings as well as win conditions on top of the basic minimax decision in the evaluation 
+                    function used to generate a move.
                 </p>
             </div>
         </div>
